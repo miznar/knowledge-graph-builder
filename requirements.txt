@@ -1,0 +1,9 @@
+streamlit
+pymupdf
+spacy
+networkx
+pyvis
+sentence-transformers
+faiss-cpu
+langchain
+openai
