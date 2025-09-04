@@ -1,4 +1,4 @@
-# ---- Python ----
+# ---- Python (Backend) ----
 __pycache__/
 *.pyc
 *.pyo
@@ -25,22 +25,23 @@ env/
 .coverage
 htmlcov/
 
-# ---- FastAPI App ----
-app/static/graphs/*.html  # generated graphs
-uploads/                  # uploaded PDFs (if stored locally)
+# FastAPI generated files
+backend/app/static/graphs/*.html
+backend/uploads/
 
-# ---- Node / Next.js ----
-node_modules/
-.next/
-dist/
-out/
+# ---- Node / Next.js (Frontend) ----
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+frontend/out/
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Local env
+# Local env files
+*.env
 .env.local
 .env.development.local
 .env.test.local
